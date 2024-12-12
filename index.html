@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>update 2024</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('your-background-image.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    h1 {
+      margin-top: 50px;
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    #button-container {
+      margin-top: 20px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background: orange;
+      color: black;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 2px 2px 5px black;
+    }
+
+    .btn:hover {
+      background: darkorange;
+    }
+
+    #popup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(50, 50, 70, 0.9);
+      width: 300px;
+      padding: 20px;
+      border-radius: 15px;
+      display: none;
+      text-align: center;
+    }
+
+    #popup img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    #popup p {
+      margin: 15px 0;
+      color: lightgray;
+    }
+
+    #popup .btn {
+      margin-top: 10px;
+      background: orange;
+    }
+  </style>
+</head>
+<body>
+  <h1>MALK AZBI 9DIIIIIM</h1>
+  <div id="button-container">
+    <button class="btn" onclick="showPopup()">dghot hna</button>
+  </div>
+
+  <div id="popup">
+    <h2>TFKIR DYAL ZAB</h2>
+    <img src="your-small-image.jpg" alt="img2">
+    <p>BADAL MN TFKIR DYALK AZBI</p>
+    <button class="btn" onclick="closePopup()">safi ghyarha</button>
+  </div>
+
+  <script>
+    function showPopup() {
+      document.getElementById('popup').style.display = 'block';
+    }
+
+    function closePopup() {
+      document.getElementById('popup').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
